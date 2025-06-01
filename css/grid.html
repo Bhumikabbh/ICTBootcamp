@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            display: grid;
+            /*row-gap: 20px;*/
+            /*column-gap: 20px;*/
+            gap: 20px;
+            background-color: rgb(167, 152, 223);
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+
+        }
+        .container div {
+            background-color: rgb(238, 171, 221);
+            border: 1px solid rgb(20, 19, 19);
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .item1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            /* grid-column: 1 / span 3; */
+        }
+        .item2{
+            /* grid-column-start: 2;
+            grid-column-end: 3; */
+            /* grid-column: 2 / span 1; */
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            /* grid-row: 1 / span 2; */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Grid Layout </h1>
+    <p> A grid layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>
+    </p> <div class="container">
+   <div class="item1">1</div>
+   <div class="item2">2</div>
+   <div class="item3">3</div>
+   <div class="item4">4</div>
+   <div class="item5">5</div>
+   <div class="item6">6</div>
+   <div class="item7">7</div>
+   <div class="item8">8</div>
+   
+   </div>
+   
+</body>
+</html>

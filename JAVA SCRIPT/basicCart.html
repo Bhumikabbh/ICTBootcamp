@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Display Cart Quantity</h1>
+    <button onclick="
+    alert(`The Cart Quantity is ${cartQuantity}`);
+    ">Show Quantity</button>
+    <button onclick="
+    cartQuantity = cartQuantity + 1;
+    alert(cartQuantity);
+    ">Add To Cart</button>
+    <button onclick="
+    if (cartQuantity < 10) {
+
+    
+    cartQuantity = cartQuantity + 2;
+    alert(cartQuantity);
+
+    } else {
+        alert('Items cannot be added')
+    }
+    ">+2</button>
+    <button onclick="
+    // cartQuantity = cartQuantity + 3;
+    // alert(cartQuantity);
+    if (cartQuantity < 10) {
+        cartQuantity = cartQuantity + 3;
+        alert(cartQuantity);
+    } else {
+        alert('Items cannot be added');
+    }
+    ">+3</button>
+    <button onclick="
+    cartQuantity = 0;
+    alert(cartQuantity);
+    ">Reset</button>
+
+    <button onclick="
+    // if(cartQuantity <=10) {
+    //     alert('Stock Available');
+    // } else {
+    //     alert('Out Of Stock');
+    // }
+
+    // if (cartQuantity < 10) {
+    //     alert('Stock Available');
+    // } else if (cartQuantity === 10){
+    //     alert('Limit Reached');
+    // } else if (cartQuantity > 10){
+    //     alert('Out Of Stock');
+    // }
+    
+
+    ">Check Stock</button>
+    <script>
+        let cartQuantity = 0;
+    </script>
+</body>
+</html>
