@@ -1,0 +1,90 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background: white;
+
+}
+header {
+background-color: grey;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+
+}
+
+header input {
+padding: 8px;
+width: 200px;
+}
+header button {
+padding: 8px 12px;
+background: pink;
+cursor: pointer;
+}
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+
+
+}
+ a {
+    color: white;
+    text-decoration: none;
+}
+main {
+padding: 1rem;
+}
+#product-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap: 1rem;
+
+
+}
+.product {
+background: white;
+border: 1px solid rgb(226, 171, 171);
+padding: 1rem;
+border-radius: 6px;
+text-align: center;
+
+}
+
+.product img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+
+}
+button {
+    background-color: pink;
+    border: 1px solid rgb(104, 80, 35);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+ul {
+list-style: none;
+padding: 1px;
+}
+li {
+background-color: white;
+margin-bottom: 0.5rem;
+padding: 0.5rem;
+border: 1px solid pink;
+
+}
+
+
+
+footer {
+background-color: grey;
+color: white;
+text-align: center;
+padding: 1.5rem;
+
+
+}
